@@ -71,7 +71,7 @@ spring.datasource.password=admin
 spring.datasource.url=jdbc:postgresql://localhost:5432/user-ms
 spring.jpa.hibernate.ddl-auto=update
 
-spring.rabbitmq.addresses=sua url do cloudamqp
+spring.rabbitmq.addresses=sua.url.da.cloudamqp
 
 broker.queue.email.name=default.email
 ```
@@ -87,14 +87,14 @@ spring.datasource.password=admin
 spring.datasource.url=jdbc:postgresql://localhost:5433/email-ms
 spring.jpa.hibernate.ddl-auto=update
 
-spring.rabbitmq.addresses=sua url do cloudamqp
+spring.rabbitmq.addresses=SUA.URL.DA.CLOUDAMQP
 
 broker.queue.email.name=default.email
 
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
 spring.mail.username=seuemail@email.com
-spring.mail.password=suasenha123
+spring.mail.password=suasenha123 (TEM QUE SER A SENHA DE APLICATIVO)
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 ```
